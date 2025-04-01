@@ -1,11 +1,9 @@
 
-The are two notebooks that explore the most important NLP algorithms with a small dataset of XXXXXXXX.
+Each notebook explores some NLP algorithms techniques using a small dataset of  the responses of psycologists to comments from patients from [Kaggle](https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations?resource=download).
 
-`nlp_101.ipynb` explores the following concepts
-
-- `nlp_vecs.ipynb` explores [Vector Embeddings](https://platform.openai.com/docs/guides/embeddings)
-- `nlp_topics.ipynb` explores [Topic Modeling](https://levity.ai/blog/what-is-topic-modeling)
-- `nlp_sentiment.ipynb` explores [Sentiment Analysis](https://aws.amazon.com/what-is/sentiment-analysis/)
+- `nlp_vecs.ipynb` explores [Vector Embeddings](https://platform.openai.com/docs/guides/embeddings).
+- `nlp_topics.ipynb` explores [Topic Modeling](https://levity.ai/blog/what-is-topic-modeling).
+- `nlp_sentiment.ipynb` explores [Sentiment Analysis](https://aws.amazon.com/what-is/sentiment-analysis/).
 - `nlp_gen_ai.ipynb` explores how using propiatary generative text models (e.g OpenAI, Google's Gemini, or Anthropic's Claude) and open-source models (e.g. Deepseek or Microsoft's phi-4) for categorization tasks. 
 
 We will use `openai` package and call on the API to the models. For this you will need a OpenAI key. Please follow these [steps](https://platform.openai.com/docs/libraries) with your OpenAI account to create a key. Note, that when using the API you need some money in the account. Most of the call using the `gtp-4o-mini` will be inexpensive (<50 cents). However, for bigger models like `gpt-4o` or thinking models `o3` can be more expensive.
@@ -28,6 +26,7 @@ This notebook uses the [`uv`](https://docs.astral.sh/uv/) python package manager
 
 To activate your virtual environment just run in the main directory of this project.
 ```bash
+uv venv
 uv sync
 ```
 
@@ -57,7 +56,7 @@ Simply run in your terminal (make sure you are in the directory of this repo)
 uv run --with jupyter jupyter lab
 ```
 
-And your jupyter lab session will run with the virtual environment in youir browser.
+And your jupyter lab session will run with the virtual environment in your browser.
 
 ## SMU Superpod
 
