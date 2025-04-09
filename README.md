@@ -19,21 +19,15 @@ Most models are GPU-intensive, so consider connecting to the SuperPod HPC for ru
 
 More details are available in each notebook.
 
-# [`uv`](https://docs.astral.sh/uv/) Setup
 
-This project uses the [`uv`](https://docs.astral.sh/uv/) Python package manager. Follow the [installation steps](https://docs.astral.sh/uv/getting-started/installation/) to get started.
-
-To create and activate your virtual environment, run these commands in the main project directory:
-```bash
-uv venv
-uv sync
-```
 
 Setting up the environment may take some time due to large packages like `tensorflow` and `transformers` used for generative AI.
 
 # Running Notebooks
 
-You will need to clone this repository:
+Just clone this repository
+
+I suggest you download the repository yf you are not familiar with git or GitHub:
 
 1. Go to [https://github.com/jjgecon/NLP_notes](https://github.com/jjgecon/NLP_notes).
 2. Select `Code` → `Download ZIP`.
@@ -43,6 +37,16 @@ You will need to clone this repository:
 
     > Alternatively, you can clone the repository using the terminal or [GitHub Desktop](https://desktop.github.com/download/).
 3. Unzip the files to your desired location.
+
+## [`uv`](https://docs.astral.sh/uv/) setup
+
+This project uses the [`uv`](https://docs.astral.sh/uv/) Python package manager. Follow the [installation steps](https://docs.astral.sh/uv/getting-started/installation/) to get started.
+
+To create and activate your virtual environment, run these commands in the main project directory:
+```bash
+uv venv
+uv sync
+```
 
 ## VS Code (Recommended)
 
