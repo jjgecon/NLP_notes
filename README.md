@@ -48,6 +48,8 @@ uv venv
 uv sync
 ```
 
+> sometimes in Windows you will have problems if used in OneDrive. [People](https://github.com/astral-sh/uv/issues/7906) have suggested `uv cache clean`.
+
 ## VS Code (Recommended)
 
 Open VS Code in the folder containing the `.venv` folder (which might be hidden).
